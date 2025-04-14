@@ -1,7 +1,14 @@
 # Opdracht 1 input function
-# Naam student:
-# Groep:
+# Naam student: Jasper Samsom
+# Groep: IT2A
 
-# Hier komt je code, maak gebruik van de input functie om de lengte van de rechthoekzijden van de driehoek op te vragen.
+import math
 
+# Input van gebruiker
+a = float(input("5\n"))
+b = float(input("10\n"))
+
+c = math.sqrt(a**2 + b**2)
+
+print("De lengte van de schuine zijde is:", round(c, 2))
 
