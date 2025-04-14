@@ -1,16 +1,15 @@
 # Opdracht 3 tekstfuncties
-# Naam student:
-# Groep:
-
-# Hier komt je code...
-x = 1
-y = ...
-print( ... )
+# Naam student: Jasper Samsom
+# Groep: IT2A
 
 x = 2
-y = ...
-print( ... )
 
-x = 0
-y = ...
-print( ... )
+a = 4 * x**3
+b = 2 * x**2
+
+y = (4 * x**3) - (2 * x**2) - 1
+
+print(f"De uitkomst is: {y}")
+
+
+
