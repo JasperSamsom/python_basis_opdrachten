@@ -1,9 +1,22 @@
 # Opdracht 1
-# Naam student:
-# Groep:
+# Naam student: Jasper Samsom
+# Groep: IT2A
 
 # Hier komt je code...
 
-my_dict = ...
+# Definieer de variabelen
+naam = "willem"
+achternaam = "van der broek"
+leeftijd = 23
+favoriete_kleur = "blauw"
 
-print()
+# Maak een dictionary aan
+my_dict = {
+    "naam": naam,
+    "achternaam": achternaam,
+    "leeftijd": leeftijd,
+    "favoriete kleur": favoriete_kleur
+}
+
+# Print de dictionary
+print(my_dict)
