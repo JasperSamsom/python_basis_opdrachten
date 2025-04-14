@@ -1,9 +1,9 @@
 # Opdracht 1
-# Naam student:
-# Groep:
+# Naam student: Jasper Samsom
+# Groep: IT2A
 
-# Hier komt je code...
+my_string = "Tinus gaat op zijn tandem naar de hottentottententoonstelling"
 
-my_list = ...
+aantal_t = my_string.lower().count('t')
 
-print()
+print(f'De letter "t" komt {aantal_t}x voor in my_string')

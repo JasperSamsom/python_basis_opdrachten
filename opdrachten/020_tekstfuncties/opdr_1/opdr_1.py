@@ -1,6 +1,6 @@
 # Opdracht 1
-# Naam student:
-# Groep:
+# Naam student: Jasper Samsom
+# Groep: IT2A
 
 # Hier komt je code...
 
