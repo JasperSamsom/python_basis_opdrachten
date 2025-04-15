@@ -1,9 +1,9 @@
 # Opdracht 3 input functie
-# Naam student:
-# Groep:
+# Naam student: Jasper Samsom
+# Groep: IT2A
 
-# Hier komt je code...
+pizzas = ['margharita', 'calzone', 'verdi', 'olivio', 'quattro stagioni']
 
-# Hier start de for-loop
+pizzas.sort()
 
-my_list = []
+print(pizzas)
