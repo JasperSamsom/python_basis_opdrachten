@@ -1,19 +1,20 @@
 # Opdracht 1 functies
-# Naam student:
-# Groep:
+# Naam student: Jasper Samsom
+# Groep: IT2A
 
 
 def volledige_naam(lijst_met_namen):
-    # hier komt jouw code
-    # Het woordje pass mag je weghalen
-    pass
+    volledige_namen = []
+    for naam_dict in lijst_met_namen:
+        try:
+            vn = naam_dict["voornaam"].strip()
+            tv = naam_dict["tussenvoegsel"].strip()
+            an = naam_dict["achternaam"].strip()
 
-
-namen = [
-    {"voornaam": "Willem", "tussenvoegsel": "van", "achternaam": "Dijk"},
-    {"voornaam": "Klaas", "tussenvoegsel": "", "achternaam": "Wopstra"},
-    {"voornaam": "Miep", "tussenvoegsel": "van der", "achternaam": "Plas"},
-    {"voornaam": "Carla", "tussenvoegsel": "", "achternaam": "Hoogvliet"},
-]
-
-volledige_naam(namen)
+            if tv:
+                volledige_namen.append(f"{vn} {tv} {an}")
+            else:
+                volledige_namen.append(f"{vn} {an}")
+        except KeyError as e:
+            print(f"Ontbrekend veld in naam: {e}")
+    return volledige_namen
