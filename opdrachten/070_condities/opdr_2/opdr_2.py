@@ -1,6 +1,6 @@
 # Opdracht 2 condities
-# Naam student:
-# Groep:
+# Naam student: Jasper Samsom
+# Groep: IT2A
 
 # Hier komt je code...
 
@@ -8,6 +8,6 @@
 
 my_list = [43948, 878768, 38768, 87555, 765765]
 
-# for...:
-#   if...:
-#       print()
+for num in my_list:
+    if num % 3 == 0:
+        print(num)

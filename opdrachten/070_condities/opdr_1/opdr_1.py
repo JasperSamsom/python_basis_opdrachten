@@ -1,12 +1,7 @@
 # Opdracht 1 condities
-# Naam student:
-# Groep:
+# Naam student: Jasper Samsom
+# Groep: IT2A
 
-# Hier komt je code, maak gebruik van de input functie om de lengte van de rechthoekzijden van de driehoek op te vragen.
+numbers = [x for x in range(1, 11) if x > 4];
 
-# Hier start de for-loop....
-
-my_list = []
-
-#for loop
-#if statement
+print(numbers)
