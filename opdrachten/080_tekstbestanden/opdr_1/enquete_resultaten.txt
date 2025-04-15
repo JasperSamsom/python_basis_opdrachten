@@ -1,0 +1,11 @@
+=== Enquêteresultaten ===
+
+Vraag: Wat vind je van de huidige regering?
+Antwoord: Meh
+
+Vraag: Wat vind je van de Python-lessen tot nu toe?
+Antwoord: Prima
+
+Vraag: Wat vind jij de mooiste stad van Nederland?
+Antwoord: Hattem
+
